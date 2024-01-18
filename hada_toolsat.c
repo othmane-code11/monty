@@ -89,7 +89,7 @@ void find_th_fnct(char *opcodee, char *valuee, int lin_nmbr, int frmt)
 	int x, y;
 
 	instruction_t fnct_list[] = {
-		{"push", adih_to_stack},
+		{"push", adih_to_st},
 		{"pall", print_th_stack},
 		{"pint", print_th_top},
 		{"pop", pop_th_top},

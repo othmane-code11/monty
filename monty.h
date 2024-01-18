@@ -75,7 +75,7 @@ void rotl(stack_t **, unsigned int);
 
 void error_find(int err_of_code, ...);
 void error_more(int err_of_code, ...);
-void err_of_th_str(int err_of_code, ...);
+void error_of_th_str(int err_of_code, ...);
 void rotr(stack_t **, unsigned int);
 
 #endif
