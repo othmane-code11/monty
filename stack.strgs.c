@@ -39,10 +39,10 @@ void print_th_char(stack_t **stck, unsigned int lin_nmbr)
 	int ascii_codee;
 
 	if (stck == NULL || *stck == NULL)
-		error_of_th_string(11, lin_nmbr);
+		error_of_th_str(11, lin_nmbr);
 	ascii_codee = (*stck)->n;
 	if (ascii_codee < 0 || ascii_codee > 127)
-		error_of_th_string(10, lin_nmbr);
+		error_of_th_str(10, lin_nmbr);
 
 	printf("%c\n", ascii_codee);
 }
