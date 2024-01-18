@@ -132,7 +132,7 @@ void find_th_fnct(char *opcodee, char *valuee, int lin_nmbr, int frmt)
  *
  * if (1) node will be entered as a queue.
  */
-void call_fun(oprt_fnct fnct, char *oprt, char *vlu, int lin_nmbr, int frmt)
+void call_th_fun(oprt_fnct fnct, char *oprt, char *vlu, int lin_nmbr, int frmt)
 {
 	stack_t *node;
 	int y, x;
