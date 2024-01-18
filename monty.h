@@ -53,8 +53,8 @@ void find_th_fnct(char *, char *, int, int);
 stack_t *create_a_node(int num);
 void free_th_nodes(void);
 void print_th_stack(stack_t **, unsigned int);
-void adih_to_stack(stack_t **, unsigned int);
-void adih_to_queue(stack_t **, unsigned int);
+void adih_to_st(stack_t **, unsigned int);
+void adih_to_qu(stack_t **, unsigned int);
 
 void call_th_fnct(oprt_fnct, char *, char *, int, int);
 

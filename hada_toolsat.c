@@ -157,7 +157,7 @@ void call_fun(oprt_fnct fnct, char *oprt, char *vlu, int lin_nmbr, int frmt)
 		if (frmt == 0)
 			fnct(&node, lin_nmbr);
 		if (frmt == 1)
-			addiha_to_queue(&node, lin_nmbr);
+			adih_to_qu(&node, lin_nmbr);
 	}
 	else
 		fnct(&head, lin_nmbr);
